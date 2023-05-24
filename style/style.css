@@ -462,13 +462,13 @@ footer p {
 
 @media (max-width: 575px) {
     .coluna {
-        background-size: 120%;
+        background-size: 100%;
     }
     .layout a {
         font-size: 20px;
         display: flex;
         color: white;
-        padding: 10px;
+        padding: 5px;
     }
     h3#ola {
         font-size: 20px;
@@ -519,7 +519,7 @@ footer p {
 /* Responsividade mobile */
 @media (max-width: 714px) {
     .coluna {
-        background-size: 160%;
+        background-size: 100%;
     }
     /* Custumozação para aparecer a barra de navegação quando o botao for ativado */
     .layout {
