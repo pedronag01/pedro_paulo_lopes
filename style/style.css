@@ -525,7 +525,7 @@ footer p {
     .layout {
       display: block;
       position: absolute;
-      width: 90%;
+      width: 60%;
       background: rgb(0, 0, 0);
       transition: 2s;
       z-index: 1000;
