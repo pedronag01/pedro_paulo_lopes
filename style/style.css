@@ -443,7 +443,7 @@ footer p {
         padding-left: 10px;
         text-align: center;
     }
-    .certer h1 {
+    .center h1 {
         font-size: 50px;
     }
     .lateral {
@@ -549,7 +549,7 @@ footer p {
       display: flex;
       justify-content: center;
       position: absolute;
-      padding: 1rem 1rem;
+      padding: 2rem 2rem;
       font-size: 20px;
       border: none;
       cursor: pointer;
