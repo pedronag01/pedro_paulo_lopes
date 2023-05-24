@@ -33,7 +33,7 @@ html {
     background-position: 100%;
     background-size: 400%;
     -webkit-transition: background 300ms ease-in-out;
-    transition: background 500ms ease-in-out;
+    transition: background 400ms ease-in-out;
   }
 .layout a:hover {
     background-position: 0;
@@ -589,6 +589,7 @@ footer p {
     }
     .lateral h2 {
         font-size: 17px;
+        align-items: center;
     }
     .lateral p, .lateral a {
         font-size: 15px;
@@ -597,6 +598,7 @@ footer p {
         line-height: 25px;
         margin: 20px;
         font-size: 20px;
+        text-align: justify;
     }
     .texto {
         padding: 1rem;
@@ -609,6 +611,7 @@ footer p {
         padding-top: 20px;
         font-size: 30px;
         color: rgb(0, 0, 0);
+        text-align: center;
     }
     
     .texto h3 {
