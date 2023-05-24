@@ -560,7 +560,7 @@ footer p {
       margin-top: 10px;
     }
     #hamburger {
-      border-top: 2px solid;
+      border-top:2px solid;
       width: 20px;
     }
     #hamburger::after,
@@ -571,7 +571,7 @@ footer p {
       height: 2px;
       background: currentColor;
       margin-top: 6px;
-      transition: 3s;
+      transition: 5s;
       position: relative;
     }
     #nav.active #hamburger {
