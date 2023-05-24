@@ -462,7 +462,7 @@ footer p {
 
 @media (max-width: 575px) {
     .coluna {
-        background-size: 100%;
+        background-size: 120%;
     }
     .layout a {
         font-size: 20px;
