@@ -123,7 +123,7 @@ html {
     }
 }
 .digitando {
-    animation: digitando 4s steps(40);
+    animation: digitando 6s steps(40);
 }
 
 @keyframes digitando {
