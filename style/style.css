@@ -186,7 +186,7 @@ html {
     height: 4px;
     background: rgb(189, 189, 189);
     position: relative;
-    border-radius: 20px;
+    border-radius: 40px;
 }
 
 .progresso-flex .barra-progresso-flex {
@@ -195,15 +195,15 @@ html {
     background-color: rgb(0, 0, 0);
     width: 65%;
     border-radius: 20px;
-    animation: barra-flex 3s;
+    animation: barra-flex 60s;
 }
 /* Animação barra de progresso */
 @keyframes barra-flex {
     0% {
         width: 0%;
     }
-    65% {
-        width: 65%
+    85% {
+        width: 95%
     }
 }
 
@@ -213,7 +213,7 @@ html {
     height: 4px;
     background-color: rgb(189, 189, 189);
     position: relative;
-    border-radius: 20px;
+    border-radius: 40px;
 }
 
 .progresso-adap .barra-progresso-adap {
@@ -222,7 +222,7 @@ html {
     background-color: rgb(0, 0, 0);
     width: 80%;
     border-radius: 20px;
-    animation: barra-adap 3s;
+    animation: barra-adap 60s;
 }
 
 @keyframes barra-adap {
@@ -238,7 +238,7 @@ html {
     display: flex;
     align-items: center;
     height: 4px;
-    background-color: rgb(189, 189, 189);
+    background-color: rgb(255, 255, 255);
     position: relative;
     border-radius: 20px;
 }
@@ -249,7 +249,7 @@ html {
     background-color: rgb(0, 0, 0);
     border-radius: 20px;
     width: 70%;
-    animation: barra-apren 3s;
+    animation: barra-apren 60s;
 }
 
 @keyframes barra-apren {
@@ -257,7 +257,7 @@ html {
         width: 0%;
     }
     70% {
-        width: 70%
+        width: 90%
     }
 }
 
@@ -276,15 +276,15 @@ html {
     background-color: rgb(0, 0, 0);
     border-radius: 20px;
     width: 30%;
-    animation: barra-html 3s;
+    animation: barra-html 60s;
 }
 
 @keyframes barra-html {
     0% {
         width: 0%;
     }
-    10% {
-        width: 10%
+    70% {
+        width: 80%
     }
 }
 
@@ -303,15 +303,15 @@ html {
     height: 140%;
     background-color: rgb(0, 0, 0);
     width: 5%;
-    animation: barra-py 3s;
+    animation: barra-py 60s;
 }
 
 @keyframes barra-py {
     0% {
         width: 0%;
     }
-    5% {
-        width: 5%
+    70% {
+        width: 35%
     }
 }
 
@@ -330,15 +330,15 @@ html {
     background-color: rgb(0, 0, 0);
     width: 60%;
     border-radius: 20px;
-    animation: barra-ing 3s;
+    animation: barra-ing 60s;
 }
 
 @keyframes barra-ing {
     0% {
         width: 0%;
     }
-    60% {
-        width: 60%
+    70% {
+        width: 50%
     }
 }
 
@@ -357,14 +357,14 @@ html {
     background-color: rgb(0, 0, 0);
     width: 30%;
     border-radius: 20px;
-    animation: barra-esp 3s;
+    animation: barra-esp 60s;
 }
 
 @keyframes barra-esp {
     0% {
         width: 0%;
     }
-    30% {
+    70% {
         width: 30%
     }
 }
@@ -434,7 +434,7 @@ footer p {
         background-size: 100%;
     }
     .center {
-        padding-top: 40px;
+        padding-top: 50px;
         padding-left: 0;
         padding-right: 0;
     }
