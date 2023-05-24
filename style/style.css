@@ -405,13 +405,20 @@ footer p {
     padding: 20px;
 }
 /* Responsividade */
-@media (max-width: 1130px) {
+@media (max-width: 1530px) {
     .coluna {
         background-size: 150%;
         background-position: top;
     }
     h1#pedro {
        margin-left: 0; 
+    }
+    .texto h2 {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-size: 26px;
+        color: rgb(0, 0, 0);
+        
     }
     .center h1 {
         margin: 30px;
@@ -424,6 +431,7 @@ footer p {
         to {
             width: 20em;
         }
+        
     }
 }
 
@@ -438,9 +446,12 @@ footer p {
         padding-left: 0;
         padding-right: 0;
     }
-    .center h1, .center p, .center h3 {
+    .center h1, .center p, .center h3, .center h2 {
         padding-top: 10px;
         padding-left: 10px;
+        text-align: center;
+        align-items: center;
+        
     }
     .certer h1 {
         font-size: 50px;
@@ -456,6 +467,8 @@ footer p {
         color: white;
         padding: 20px;
         font-size: 15px;
+        align-items: center;
+        text-align: center;
     }
 }
 
@@ -502,11 +515,14 @@ footer p {
         padding-top: 20px;
         font-size: 26px;
         color: rgb(0, 0, 0);
+        align-items: center;
+        text-align: center;
     }
     .texto h3 {
         font-family: 'Source Code Pro', monospace;
         font-size: 23px;
         color: rgb(0, 0, 0);
+        text-align: center;
     }
     .texto a {
         text-decoration: none;
@@ -515,7 +531,7 @@ footer p {
     
 }
 /* Responsividade mobile */
-@media (max-width: 714px) {
+@media (max-width: 414px) {
     .coluna {
         background-size: 160%;
     }
@@ -590,6 +606,7 @@ footer p {
     .lateral h2 {
         font-size: 17px;
         align-items: center;
+        text-align: center;
     }
     .lateral p, .lateral a {
         font-size: 15px;
@@ -619,6 +636,7 @@ footer p {
         font-size: 23px;
         color: rgb(0, 0, 0);
         padding: 10px;
+        text-align: center;
     }
     
     .texto a {
